@@ -1,19 +1,28 @@
-# To jest przykładowy plik readme
+# Dokumentacja Projektu HTML/CSS
 
-W naszym repo zamieścimy plik html wypełniony treścią -- wybrana tematyka np. uwybrany gwiazdozbiór.
-Mozemy skorzystać z opcji dodawania zdjęć.
-  ![Gwiazda](src/nasa_01.png)
-  źródło: [NASA/JPL-Caltech/UCLA](Image Credit: NASA/JPL-Caltech/UCLA)
+Ten plik krótko opisuje 3 największe gwiazdozbiory.
+Poniżej znajdują się szczegóły dotyczące wykorzystanych narzędzi oraz planów na przyszłość.
 
-Lub listy wykonanych zadań:
+## Wykorzystane narzędzia
 
-- [x] Główny plik HTML
-- [ ] Plik licenci
-- [x] kod css
-- [ ] edycja wyświetlania znaczników
-- [ ] dodać drugą podstrone html
-- [ ] dodać plik markdown stanowiący ala manual do tematu, lub opis wykonywanych zadań.
+W projekcie używamy standardowych narzędzi. Głównym edytorem kodu jest
+[Visual Studio Code](https://code.visualstudio.com/), który wspiera naszą pracę dzięki
+rozszerzeniom takim jak Live Server.
 
-SOURCES:
+Kod źródłowy jest wersjonowany przy użyciu Git, co pozwala na bezpieczne
+wprowadzanie zmian i tworzenie na osobnych gałęziach.
 
-1. [Przykładowy spis poleceń](https://www.markdownguide.org/basic-syntax/)
+## Plany rozwoju (To-Do List)
+
+Poniżej znajduje się lista funkcjonalności, które planujemy wdrożyć w przyszłości.
+Więcej informacji o składni Markdown można znaleźć w [oficjalnym przewocniku](https://www.markdownguide.org/).
+
+- [x] Stworzenie struktury HTML (nav, main, footer)
+- [x] Dodanie stylów CSS i tła
+- [ ] Implementacja formularza kontaktowego
+- [ ] Dopisanie komentarzy do trudniejszych fragmentów kodu
+
+
+Przez niedopatrzenie nie wygenerowałem pliku log_album_1 przed mergem. Gdybym wygenerował ten plik przed użyciem --no-ff, historia byłaby płaska w scalaniu typu Fast-Forward. Użycie --no-ff w log_album_2 wymusiło stworzenie merge commit, co widać w logach jako rozwidlenie i ponowne złączenie linii grafu.
+
+Użyłem polecenia git commit --amend. Pozwala ono na modyfikację ostatniego commita bez tworzenia nowego wpisu w historii. Zmiany z pliku html zostały dodane do poprzedniego commita. Zmienił się identyfikator commita, co oznacza, że git nadpisał tamtą wersję.

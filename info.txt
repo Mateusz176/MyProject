@@ -1,0 +1,2 @@
+Dzisiejsza pogoda:
+temperatura: 5 st. C. pochmurno, wschód słońca: 08.05, zachód słońca: 15.23
