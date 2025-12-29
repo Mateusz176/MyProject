@@ -26,3 +26,7 @@ Więcej informacji o składni Markdown można znaleźć w [oficjalnym przewocnik
 Przez niedopatrzenie nie wygenerowałem pliku log_album_1 przed mergem. Gdybym wygenerował ten plik przed użyciem --no-ff, historia byłaby płaska w scalaniu typu Fast-Forward. Użycie --no-ff w log_album_2 wymusiło stworzenie merge commit, co widać w logach jako rozwidlenie i ponowne złączenie linii grafu.
 
 Użyłem polecenia git commit --amend. Pozwala ono na modyfikację ostatniego commita bez tworzenia nowego wpisu w historii. Zmiany z pliku html zostały dodane do poprzedniego commita. Zmienił się identyfikator commita, co oznacza, że git nadpisał tamtą wersję.
+
+## Wybór metody scalania
+W tym zadaniu zdecydowano się na metodę **git merge**. 
+Uzasadnienie: Wybrano tę metodę, aby zachować pełną historię gałęzi `html-subpage`. Dzięki temu widać dokładnie, kiedy prace nad podstronami zostały zakończone i włączone do głównego projektu.
